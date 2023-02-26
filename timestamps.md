@@ -13,6 +13,6 @@ Discord timestamps are useful items for specifying a date/time across multiple u
 |Long Date|`<t:1677312000:D>`|February 25, 2023|February 2023
 |Short Date/Time|`<t:1677312000:f>`|February 25, 2023 12:00 AM|25 February 2023 00:00
 |Long Date/Time|`<t:1677312000:F>`|Saturday, February 25, 2023 12:00 AM|Saturday, 25 February 2023 12:00
-|Relative Time|`<t:1543392060:R>`|0 days ago|0 days ago
+|Relative Time|`<t:1677312000:R>`|0 days ago|0 days ago
 
 If you have your language set to `English US`, then it will use the 12-hour format. If your language is `English UK` or any other one, then it will use the 24-hour format.
