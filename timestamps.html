@@ -1,0 +1,68 @@
+<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
+    <article class="markdown-body entry-content container-lg" itemprop="text"><h1 dir="auto">Discord Timestamps</h1>
+<p dir="auto">Discord timestamps are useful items for specifying a date/time across multiple users time zones. They work with the Unix Timestamp format and can be posted by any type of user.
+<a href="https://www.unixtimestamp.com/" rel="nofollow">The Epoch Unix Time Stamp Converter</a> is a good way to quickly generate a timestamp. For the examples in the table I will be using the Time Stamp of <code>1677312000</code>, which represents <code>February 25th, 2023</code> at <code>00:00:00</code> hours for my local time zone (GMT-0800).</p>
+<h2 dir="auto">Formatting</h2>
+<table>
+<thead>
+<tr>
+<th>Style</th>
+<th>Input</th>
+<th>Output (12-hour clock)</th>
+<th>Output (24-hour clock)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Default</td>
+<td><code>&lt;t:1677312000&gt;</code></td>
+<td>Febreuary 25, 2023 12:00 AM</td>
+<td>28 November 2018 00:00</td>
+</tr>
+<tr>
+<td>Short Time</td>
+<td><code>&lt;t:1677312000:t&gt;</code></td>
+<td>12:00 AM</td>
+<td>00:00</td>
+</tr>
+<tr>
+<td>Long Time</td>
+<td><code>&lt;t:1677312000:T&gt;</code></td>
+<td>00:00:00 AM</td>
+<td>12:00:00</td>
+</tr>
+<tr>
+<td>Short Date</td>
+<td><code>&lt;t:1677312000:d&gt;</code></td>
+<td>02/25/2023</td>
+<td>02/25/2023</td>
+</tr>
+<tr>
+<td>Long Date</td>
+<td><code>&lt;t:1677312000:D&gt;</code></td>
+<td>February 25, 2023</td>
+<td>February 2023</td>
+</tr>
+<tr>
+<td>Short Date/Time</td>
+<td><code>&lt;t:1677312000:f&gt;</code></td>
+<td>February 25, 2023 12:00 AM</td>
+<td>25 February 2023 00:00</td>
+</tr>
+<tr>
+<td>Long Date/Time</td>
+<td><code>&lt;t:1677312000:F&gt;</code></td>
+<td>Saturday, February 25, 2023 12:00 AM</td>
+<td>Saturday, 25 February 2023 12:00</td>
+</tr>
+<tr>
+<td>Relative Time</td>
+<td><code>&lt;t:1677312000:R&gt;</code></td>
+<td>0 days ago</td>
+<td>0 days ago</td>
+</tr>
+</tbody>
+</table>
+<p dir="auto">If you have your language set to <code>English US</code>, then it will use the 12-hour format. If your language is <code>English UK</code> or any other one, then it will use the 24-hour format.</p>
+</article>
+  </div>
