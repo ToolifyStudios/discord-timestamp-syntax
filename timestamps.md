@@ -16,5 +16,3 @@ Discord timestamps are useful items for specifying a date/time across multiple u
 |Relative Time|`<t:1543392060:R>`|0 days ago|0 days ago
 
 If you have your language set to `English US`, then it will use the 12-hour format. If your language is `English UK` or any other one, then it will use the 24-hour format.
-
-![](https://camo.githubusercontent.com/9ff9d6f08f6bbc03d7037ed60fd8e146fa4baa74c2c0b0a27307ca1849d2794b/68747470733a2f2f692e6c6576692e6c616e642f6650736935412f646972656374)
